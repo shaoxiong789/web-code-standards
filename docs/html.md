@@ -9,10 +9,10 @@
 
 在属性上，使用双引号，不要使用单引号。
 
-不要在自动闭合标签结尾处使用斜线 `/` - HTML5 规范 指出他们是可选的。
+必须在自动闭合标签结尾处使用斜线 `/` - 虽然HTML5 规范 指出他们是可选的。
 
 ```
-<img src="images/logo.png" alt="Company">
+<img src="images/logo.png" alt="Company"/>
 ```
 
 不要忽略可选的关闭标签（例如，`</li>` 和 `</body>`）。
